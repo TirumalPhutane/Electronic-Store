@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".activity.LoginActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/editEmail"
+        android:hint="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editPassword"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:id="@+id/checkBoxRememberMe"
+        android:text="Remember Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="#FFD814"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="#FFC1E8FF"
+        android:textSize="17dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnRegister"
+        android:text="Create a new account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
